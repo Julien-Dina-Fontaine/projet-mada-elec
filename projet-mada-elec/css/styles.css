@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+form {
+    display: inline-block;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    color: rgb(74, 74, 236);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: rgb(74, 74, 236, 0.50);
+    padding-top: 20px;
+}
+
+h3 {
+    color: rgb(74, 74, 236);
+    font-size: 35px;
+    
+}
+
+h5 {
+    font-size: 20px;
+    color: black;
+    margin-top: 30px;
+}
+
+.part1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(74, 74, 236, 0.50);
+    padding: 20px;
+    color: white;
+
+}
+
+.part1D {
+    padding: 20px;
+    text-justify: auto;
+}
+
+.part3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20 px;
+}
+
+.part3bas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.part3bas div {
+    background-color: rgb(74, 74, 236);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 5px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lienP4 {
+    color: white;
+    padding: 10px 50px 40px 50px;
+
+}
+
+.part4 {
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.part4 img {
+    width: 250px;
+    height: 208px;
+    margin-top: 20px;
+    margin: 5px;
+}
+
+.bottom {
+    background-color: #2F2F2F;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.menutop {
+    grid-area: 2 / 1 / 3 / 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    background-color: rgb(74, 74, 236);
+    border: 0px;
+
+}
+
+.top h1 {
+    margin: 20px;
+}
+
+.top h2 {
+    text-align: center;
+}
+
+.nav:hover {
+    background-color: rgb(177, 177, 242);
+    border-radius: 25px;
+    
+}
+
+.nav {
+    color: aliceblue;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.entreprise,
+.prestation,
+.conseils {
+    background-color: rgb(74, 74, 236, 0.50);
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    border-radius: 25px;
+    margin: 20px;
+
+}
+
+.part5,
+.part6,
+.part7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: white;
+    margin: 20px;
+}
+
+.title {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+span {
+    color: blue;
+    font-weight: 1000;
+}
+
+td img {
+    width: 100px;
+    height: auto;
+}
+
+td {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.tab1 {
+    background-color: rgb(74, 74, 236, 0.50);
+}
+
+.tab2 {
+    background-color: rgb(74, 74, 236, 0.30);
+}
+
+.tab3 {
+    background-color: rgb(74, 74, 236, 0.80);
+}
+
+th {
+    font-size: 30px;
+}
+
+table {
+    margin: 40px;
+}
+
+.part7 img {
+    width: auto;
+    height: 40px;
+
+}
+
+
+.part7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.materiaux {
+    display: flex;
+    flex-direction: column;
+    justify-self: center ;
+}
+
+.materiaux div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 15px;
+}
+
+.grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+}
+
+.grid-paysages img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lien-conteneur-photo {
+    position: relative;
+}
+
+.photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+}
+
+section {
+    padding: 80px;
+}

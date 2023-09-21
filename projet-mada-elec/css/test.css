@@ -1,0 +1,120 @@
+
+  #galleryContainer { 
+    height: 300px;
+    width: 800px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  #galleryView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #slider3 {
+    height: 36px;
+    width: 46px;
+    background-color: rgb(74, 74, 236);
+    border-radius: 3px;  
+    transition: all 0.5s;
+  }
+  
+  #slider3.active {
+    -webkit-transform: translatex(50px);
+    -ms-transform: translatex(50px);
+    -o-transform: translatex(50px);
+    transform: translatex(50px);
+    transition: all 0.5s;
+    background-color: rgb(74, 74, 236);
+  }
+  
+  #mainView {
+    height: 192px;
+    width: 336px;  
+    border-radius: 5px;
+    background-color: rgb(74, 74, 236);
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    transition: all 1s;  
+  }
+  
+  #mainView:hover {
+    transform: scale(1.2);
+    transition: all 1s;   
+  }
+  
+  #leftView {
+    height: 192px;
+    width: 150px;
+    opacity: 0.5;
+    border-radius: 5px;
+    transform: skewy(5deg);
+    transform-origin: top right;
+    background-color: rgb(74, 74, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;  
+  }
+  
+  #leftView:hover {
+    opacity: 1;
+    transition: all 1s;
+  }
+  
+  #rightView {
+    height: 192px;
+    width: 150px;
+    opacity: 0.5;
+    border-radius: 5px;
+    transform: skewy(-5deg);
+    transform-origin: top left;
+    background-color: rgb(74, 74, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   transition: all 1s;
+  }
+  
+  #rightView:hover {
+    opacity: 1;
+    transition: all 1s;
+  }
+  
+  .navBtns {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    opacity: 0.8;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .navBtns:hover {
+    opacity: 1;
+    transition: all 1s;
+    background-color: rgb(74, 74, 236);
+  }
+  
+  #navLeft {
+    left: 50px;
+  }
+  
+  #navRight {
+    right: 50px;
+  }
+  
+  #linkTag { 
+    cursor: pointer;
+    z-index: 1;
+    box-sizing: border-box;
+  }
